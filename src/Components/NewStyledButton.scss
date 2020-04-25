@@ -1,8 +1,14 @@
 .button {
     width: 700px;
     border: 2px solid white;
-    border-radius: 10px;
+    font-size: 30px;
+    font-family: "Calibri";
     //color: white;
+
+    &:hover {
+        outline: 5px solid red;
+        outline-offset: -20px;
+    }
 }
 
 .button-blue {

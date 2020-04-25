@@ -8,9 +8,9 @@ function App() {
       <>
           <div className="flex-container">
               <button className={"button"}>Old Button</button>
-              <NewStyledButton></NewStyledButton>
+              <NewStyledButton/>
           </div>
-          <img src={thomas} alt={"Thomas and friends"}/>
+          <img src={thomas} alt={"Thomas and friends"} width= "100%"/>
       </>
   );
 }
