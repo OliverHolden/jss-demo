@@ -11,6 +11,7 @@
     }
 }
 
-.button-blue {
+.NewStyledButton__button-blue {
+    @extend .NewStyledButton__button;
     background-color: blue;
 }
