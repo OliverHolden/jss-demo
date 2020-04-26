@@ -3,6 +3,8 @@ import './NewStyledButton.scss'
 
 export default function NewStyledButton() {
     return (
-        <button className={"button button-blue"}>New Styled Button</button>
+        <button className={"button button-blue"}>
+            New Styled Button
+        </button>
     );
 }

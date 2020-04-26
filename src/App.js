@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import thomas from './Images/thomas.png'
-import NewStyledButton from './Components/NewStyledButton'
+import NewStyledButton from './Components/NewStyledButton/NewStyledButton'
 
 function App() {
   return (
