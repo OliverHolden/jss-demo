@@ -1,16 +1,17 @@
-.NewStyledButton__button {
+@mixin NewStyledButton__button {
     width: 700px;
     border: 5px solid white;
     font-size: 30px;
     font-family: "Calibri";
+    background-color: black;
     color: white;
-
-    &:hover {
-        outline: 5px solid red;
-        outline-offset: -20px;
-    }
 }
 
-.button-blue {
+.NewStyledButton__button-default {
+    @include NewStyledButton__button;
+}
+
+.NewStyledButton__button-blue {
+    @include NewStyledButton__button;
     background-color: blue;
 }
