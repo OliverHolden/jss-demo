@@ -13,6 +13,11 @@ export default createUseStyles({
     button_blue: {
         extend: 'NewStyledButton__button',
         backgroundColor: '#2778b3',
+
+        '&:hover': {
+            outline: [5, 'solid', 'red'],
+            outlineOffset: -20,
+        },
     },
 
     button_green: {

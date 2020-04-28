@@ -7,7 +7,7 @@ function App() {
   return (
       <>
           <div className="flex-container">
-              <button className={"button"}>Old Button</button>
+              <button className={"button-blue"}>Old Button</button>
               <NewStyledButton/>
           </div>
           <img src={thomas} alt={"Thomas and friends"} width= "100%"/>

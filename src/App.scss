@@ -6,3 +6,8 @@
   color: black;
 }
 
+.button-blue {
+  @extend .button;
+  background-color: red;
+}
+
