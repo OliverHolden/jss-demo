@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.scss';
 import thomas from './Images/thomas.png'
-import NewStyledButton from './Components/NewStyledButton/NewStyledButton'
-import {Button} from "./Components/ReactInlineButton";
+import JssInlineButton from './Components/JssInlineButton/JssInlineButton'
+import ReactInlineButton from "./Components/ReactInlineButton/ReactInlineButton";
+import AnotherScSSButton from "./Components/AnotherScssButton/AnotherScssButton";
+import JssButton from "./Components/JssButton/JssButton";
 
 function App() {
   return (
       <>
           <div className="flex-container">
-              <button className={"button-blue"}>Old Button</button>
-              <NewStyledButton/>
-              <Button/>
+              <button className={"button"}>Old Button</button>
+              <AnotherScSSButton />
+              <ReactInlineButton />
+              <JssInlineButton />
+              <JssButton></JssButton>
           </div>
           <img src={thomas} alt={"Thomas and friends"} width= "100%"/>
       </>
