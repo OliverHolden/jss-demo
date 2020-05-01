@@ -3,6 +3,7 @@ import './AnotherScssButton.scss'
 
 export default function AnotherScSSButton() {
     return(
-        <button className="button button-green" > AnotherScssButton </button>
+        <button className="button" > AnotherScssButton </button>
+        //<button className="AnotherScssButton" > AnotherScssButton </button>
     )
 }
