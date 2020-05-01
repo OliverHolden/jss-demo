@@ -1,8 +1,27 @@
-.button{
+.button {
   width: 300px;
   height: 100px;
-  font-family: "Arial";
-  background-color: Green;
+  background-color: #F4A460;
+  font-family: "Comic Sans MS";
+  font-size: 1.8em;
+  color: black;
+}
+
+.nav .nav__ListItem .nav__button-green {
+
+}
+
+.nav {
+  background-color: blue;
+  color: white
+}
+
+.nav__button-green {
+  background-color: darkGreen;
+}
+
+.nav__ListItem {
+  background-color: white;
   color: black;
 }
 

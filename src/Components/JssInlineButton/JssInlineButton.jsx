@@ -2,13 +2,13 @@ import React from "react";
 import {createUseStyles} from "react-jss";
 
 const useStyles = createUseStyles({
-
     button: {
+        width: 450,
+        height: 100,
         backgroundColor: '#2778b3',
-        width: 250,
         border: [5, 'solid', '#fff'],
-        fontSize: 30,
-        fontFamily: 'Calibri',
+        fontFamily: 'Times New Roman',
+        fontSize: '3em',
         color: '#fff',
     },
 });
@@ -16,7 +16,8 @@ const useStyles = createUseStyles({
 export default function JssInlineButton() {
     const classes = useStyles();
     return (
-        <button className={classes.button} > JssInlineButton </button>
-
+        <button className={classes.button} >
+            JssInlineButton
+        </button>
     );
 }

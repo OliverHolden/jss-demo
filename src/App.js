@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.scss';
 import thomas from './Images/thomas.png'
-import JssInlineButton from './Components/JssInlineButton/JssInlineButton'
-import ReactInlineButton from "./Components/ReactInlineButton/ReactInlineButton";
 import AnotherScSSButton from "./Components/AnotherScssButton/AnotherScssButton";
+import ReactInlineButton from "./Components/ReactInlineButton/ReactInlineButton";
+import JssInlineButton from './Components/JssInlineButton/JssInlineButton'
 import JssButton from "./Components/JssButton/JssButton";
 
 function App() {

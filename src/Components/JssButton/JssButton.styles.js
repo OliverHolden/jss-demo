@@ -1,13 +1,14 @@
 import {createUseStyles} from "react-jss";
 
 export default createUseStyles({
-
     button: {
-        backgroundColor: '#2778b3',
         width: 200,
+        height: 100,
+        backgroundColor: '#FF0000',
         border: [5, 'solid', '#fff'],
-        fontSize: 30,
-        fontFamily: 'Calibri',
+        borderRadius: '25px',
+        fontFamily: "Calibri",
+        fontSize: '1.8em',
         color: '#fff',
     },
 });
