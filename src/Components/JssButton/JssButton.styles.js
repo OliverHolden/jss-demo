@@ -7,7 +7,7 @@ export default createUseStyles({
         backgroundColor: '#FF0000',
         border: [5, 'solid', '#fff'],
         borderRadius: '25px',
-        fontFamily: "Calibri",
+        fontFamily: 'Calibri',
         fontSize: '1.8em',
         color: '#fff',
     },
